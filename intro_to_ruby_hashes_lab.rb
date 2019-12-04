@@ -23,14 +23,8 @@ def monopoly_with_third_tier
   railroads: { 
     pieces: 4,
     rent_in_dollars: {:key => 'a', :key2 => 'b', :key3 => 'c', :key4 => 'd'}
-    names: 
-    {
-:key => 'a',
-:key2 => 'b',
-:key3 => 'c',
-:key4 => 'd'
-}
-    } 
+    names: {:key => 'a', :key2 => 'b', :key3 => 'c', :key4 => 'd'}
+    }
   }
   
   # When you start writing the implementation for this method, copy the Hash
